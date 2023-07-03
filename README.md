@@ -6,7 +6,7 @@ frp架设有分成server(服务器) 和 client (客户端)
 首先，先在server(服务器) 设置frp  
 1. 运行以下4句指令  
 ```
-wget https://raw.githubusercontent.com/laomingOfficial/RaspberryPi-frp/master/SetupServer.sh  
+wget https://raw.githubusercontent.com/trancanh1102/RaspberryPi-frp/master/SetupServer.sh  
 chmod +x SetupServer.sh  
 ./SetupServer.sh  
 sudo nano /etc/frp/frps.ini
@@ -22,7 +22,7 @@ systemctl enable frps #将服务设置为开机启动
 接下来，进入树莓派terminal设置frp  
 1. 运行以下4句指令  
 ```
-wget https://raw.githubusercontent.com/laomingOfficial/RaspberryPi-frp/master/SetupClient.sh  
+wget https://raw.githubusercontent.com/trancanh1102/RaspberryPi-frp/master/SetupClient.sh  
 chmod +x SetupClient.sh  
 ./SetupClient.sh  
 sudo nano /etc/frp/frpc.ini  
